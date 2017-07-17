@@ -6,6 +6,21 @@ subsequently "replay" and remain identical from an observation standpoint. In
 other words, we should be able to re-evaluate the original execution of a
 function a potentially infinite number of times in a deterministic manner.
 
+To run:
+```
+$ git clone git@github.com:gilesvangruisen/js-replay.git
+$ cd js-replay
+$ npm i
+$ npm start
+```
+
+Then you can go to [http://localhost:8080](http://localhost:8080) and open a
+console to see it running.
+
+Side note: I'm really just using webpack here for the development server and
+hot-reloading, but it would be nice if the project had more file structure so
+everything's not in one big JS file.
+
 ### Overview
 
 In order to do so, we need to first define and understand the sources of
